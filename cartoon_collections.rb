@@ -17,5 +17,5 @@ def list_dwarves(array)
   list_dwarves = ["1.*Dopey"]
   list_dwarves.each do |element|
     puts element
-  
+  end
 end
