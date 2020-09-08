@@ -14,7 +14,8 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   
-  list_dwarves = [""]
-  
+  list_dwarves = ["1.*Dopey"]
+  list_dwarves.each_with_index { |item, index|
+  list_dwarves[item] = index
   
 end
