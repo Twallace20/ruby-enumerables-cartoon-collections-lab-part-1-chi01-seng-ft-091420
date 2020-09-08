@@ -14,7 +14,7 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   
-  list_dwarves = ["1.*Dopey", "2.*Grumpy", "3.*Bashful"]
+  list_dwarves = ["1.*Dopey", "2.*Grumpy", "3.*Bashful", ""]
   list_dwarves.each do |element|
     puts element
   end
